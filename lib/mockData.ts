@@ -142,7 +142,7 @@ export const users: User[] = [
     password: 'davidfox@',
     transactionCode: '7894',
     createdAt: '2026-2-14', // y-m-d
-    transactionMsg: 'The account is on hold. Tom Ullrich & Cristina a fee attaches need to be paid as soon as possible 7500$',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
