@@ -148,75 +148,96 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876542457',
-        balance: 18200000.0,
+        balance: 15163820.0,
         isPrimary: true,
         transactions: [
           {
-            merchant: 'Transfer Payment Frm Eric~Edward Oilfield company',
+            merchant: 'Insurance Fee',
+            category: '****3821',
+            date: 'May 21, 2026',
+            amount: 18735.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Maintenance Fee',
+            category: '****5047',
+            date: 'May 21, 2026',
+            amount: 18735.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer Payment Frm Eric~Edward Oilfield Company',
+            category: '****9163',
+            date: 'Mar 27, 2026',
+            amount: 2700.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer Payment from Eric Edward Oilfield Company',
             category: '****7642',
             date: 'Jul 04, 2006',
             amount: 15000000.0,
             status: 'success'
           },
           {
-            merchant: 'Credit Card Payment officials',
-            category: '****1938',
+            merchant: 'Credit Card Payment — Officials',
+            category: '****2395',
             date: 'Jun 10, 2006',
             amount: -15750.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Tee~Energy services',
-            category: '****5821',
+            merchant: 'Transfer from Tee Energy Services',
+            category: '****8810',
             date: 'Feb 05, 2006',
             amount: 27000.0,
             status: 'success'
           },
           {
             merchant: 'Credit Card Payment',
-            category: '****4479',
+            category: '****4472',
             date: 'Oct 19, 2005',
             amount: -11500.0,
             status: 'success'
           },
           {
             merchant: 'Check Deposit',
-            category: '****3306',
+            category: '****6039',
             date: 'May 13, 2005',
             amount: -30500.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer Payment frm Steven Porter',
-            category: '****9184',
+            merchant: 'Transfer Payment from Steven Porter',
+            category: '****1784',
             date: 'Dec 24, 2004',
             amount: 21650.0,
             status: 'success'
           },
           {
             merchant: 'Credit Card Payment',
-            category: '****2715',
+            category: '****5521',
             date: 'Apr 03, 2004',
             amount: -15000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Chad Estate management',
-            category: '****6043',
+            merchant: 'Transfer from Chad Estate Management',
+            category: '****3906',
             date: 'Jan 08, 2004',
             amount: 25000.0,
             status: 'success'
           },
           {
             merchant: 'Credit Card Payment',
-            category: '****8897',
+            category: '****7258',
             date: 'Jul 20, 2003',
             amount: -40500.0,
             status: 'success'
           },
           {
             merchant: 'Check Deposit XXXXXX8324',
-            category: '****1529',
+            category: '****0143',
             date: 'Mar 23, 2003',
             amount: 50000.0,
             status: 'success'
