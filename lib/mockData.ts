@@ -141,14 +141,14 @@ export const users: User[] = [
     username: 'Dfox01',
     password: 'davidfox@',
     transactionCode: '7894',
-    createdAt: '2026-2-14', // y-m-d
+    createdAt: '2026-5-23', // y-m-d
     transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876542457',
-        balance: 15163820.0,
+        balance: 18200000.0,
         isPrimary: true,
         transactions: [
           {
@@ -256,7 +256,7 @@ export const users: User[] = [
       {
         id: 'card_003',
         cardNumber: '4532123456783458',
-        expiryDate: '08/19',
+        expiryDate: '08/30',
         cvv: '789',
         cardType: 'debit',
         cardName: 'Premier Checking Card',
