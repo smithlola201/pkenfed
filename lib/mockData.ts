@@ -148,21 +148,21 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876542457',
-        balance: 18200000.0,
+        balance: 18183965.0,
         isPrimary: true,
         transactions: [
-          {
-            merchant: 'Insurance Fee',
-            category: '****3821',
-            date: 'May 21, 2026',
-            amount: 18735.0,
-            status: 'success'
-          },
           {
             merchant: 'Maintenance Fee',
             category: '****5047',
             date: 'May 21, 2026',
             amount: 18735.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Insurance Fee',
+            category: '****3821',
+            date: 'May 21, 2026',
+            amount: 2700.0,
             status: 'success'
           },
           {
